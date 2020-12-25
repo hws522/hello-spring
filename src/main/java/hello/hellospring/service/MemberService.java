@@ -28,10 +28,12 @@ public class MemberService {
         });*/
         // 안이뻐서. 어짜피 result가 반환이 됐기 때문에 바로 ifPresent가 들어갈 수 있음.
         // 이렇게 로직이 나오는 경우, 메서드로 뽑는게 좋음.
-        validateDuplicateMember(member);
 
-        memberRepository.save(member);
-        return member.getId();
+
+            validateDuplicateMember(member);
+
+            memberRepository.save(member);
+            return member.getId();
     }
 
     private void validateDuplicateMember(Member member) {
