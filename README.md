@@ -1,7 +1,6 @@
 # 스프링부트, 웹 MVC, DB 접근기술에 대한 넓고 얕은 기본 공부. 
 
 ## Note
----
 ### start.spring.io
 
 - Maven, Gradle 라이브러리를 가져오고, 관리해주는 툴. 요즘은 Gradle.
