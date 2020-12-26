@@ -15,7 +15,7 @@
 - Dependencies - (어떤 라이브러리를 가져다 쓸것인지) spring web, thymeleaf
 
 
-**spring 파일 내 project.**
+**스프링 파일 내 **
 
 * .idea = 인텔리제이 사용하는 설정파일.
 
