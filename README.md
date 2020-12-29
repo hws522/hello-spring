@@ -290,7 +290,7 @@
 
   `public MemberService memberService(){`
 
-​    `return new MemberService(memberRepository());`
+    `return new MemberService(memberRepository());`
 
   `}`
 
